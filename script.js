@@ -8,5 +8,9 @@
 
 // requiring form other directoreis
 
-const fruitData = require("./Fruit");
-console.log(fruitData[0]);
+// const fruitData = require("./Fruit");
+// console.log(fruitData[0]);
+
+import { g, mult, add, square } from "./math.js";
+
+console.log(`${g} ${square(2, 4)}`);

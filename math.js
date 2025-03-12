@@ -1,13 +1,13 @@
-exports.add = (a, b) => {
+export const add = (a, b) => {
   return a + b;
 };
-exports.mult = (a, b) => {
+export const mult = (a, b) => {
   return a * b;
 };
-exports.square = (a, b) => {
+export const square = (a, b) => {
   return a ** b;
 };
-exports.g = 9.8;
+export const g = 9.8;
 // module.exports.add = (a, b) => {
 //   return a + b;
 // };
